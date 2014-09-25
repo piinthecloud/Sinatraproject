@@ -6,12 +6,20 @@
     <script src="/app.js"></script>
 </head>
 
-<p><img src = "chonga.jpg" height = "400" width "2000" ></p>
-<a href= "/">Home</a>
-<a href= "/about-me">About</a>
+<div id=top></div>
+<div id=bottom></div>
+<div id=left></div>
+<div id=right></div>
 
-<hr>
+<div id="header">
+  <div style="text-align: center;"><img src = "/chonga.jpg" height = "410"  style="margin-top:20px"></div>
+  <p></p>
+  <div id="links">
+    <a href= "/">Home</a> /
+  <a href= "/about-me">About</a>
+  </div>
+</div>
+
+
 
 <%= yield %>
-
-<hr>
