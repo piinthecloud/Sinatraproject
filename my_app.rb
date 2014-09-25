@@ -11,9 +11,7 @@ class MyApp < Sinatra::Base
   end
 
   get "/about-me" do
-
     erb :about_me
-
   end
 
   get "/posts" do
@@ -21,9 +19,7 @@ class MyApp < Sinatra::Base
   end
 
   get "/posts/:postname" do
-
     erb("/posts/#{params[:postname]}".to_sym)
-
   end
 
 end
