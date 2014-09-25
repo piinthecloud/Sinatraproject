@@ -1,5 +1,7 @@
 require 'sinatra'
 
+
+
 class MyApp < Sinatra::Base
   # This is where your code will go
   #get takes a string argument (a path in the url) and a block of code. could be /about_me
@@ -14,4 +16,18 @@ class MyApp < Sinatra::Base
 
   end
 
+  get "/posts" do
+    erb :posts
+  end
+
+  get "/posts/:postname" do
+
+    erb("/posts/#{params[:postname]}".to_sym)
+
+  end
+
 end
+
+# get "/users/:username" do
+#   erb params[:username]
+# end
