@@ -1,14 +1,4 @@
-/* css Zen Garden default style v1.02 */
-/* css released under Creative Commons License - http://creativecommons.org/licenses/by-nc-sa/1.0/  */
 
-/* This file based on 'Tranquille' by Dave Shea */
-/* You may use this file as a foundation for any new work, but you may find it easier to start from scratch. */
-/* Not all elements are defined in this file, so you'll most likely want to refer to the xhtml as well. */
-
-/* Your images should be linked as if the CSS file sits in the same folder as the images. ie. no paths. */
-
-
-/* basic elements */
 html {
 	margin: 0;
 	padding: 0;
@@ -17,7 +7,7 @@ body {
 	font: 75% georgia, sans-serif;
 	line-height: 1.88889;
 	color: #555753;
-	background: #fff url(blossoms.jpg) no-repeat bottom right;
+	background: #fff url(images.jpg) no-repeat bottom right;
 	margin: 0;
 	padding: 0;
 	}
@@ -52,7 +42,7 @@ abbr {
 
 /* specific divs */
 .page-wrapper {
-	background: url(zen-bg.jpg) no-repeat top left;
+	background: url(images.jpg) no-repeat top left;
 	padding: 0 175px 0 110px;
 	margin: 0;
 	position: relative;
@@ -64,7 +54,7 @@ abbr {
 	}
 
 header h1 {
-	background: transparent url(h1.gif) no-repeat top left;
+	background: transparent url(images.gif) no-repeat top left;
 	margin-top: 10px;
 	display: block;
 	width: 219px;
@@ -76,7 +66,7 @@ header h1 {
 	overflow: hidden;
 	}
 header h2 {
-	background: transparent url(h2.gif) no-repeat top left;
+	background: transparent url(images.gif) no-repeat top left;
 	margin-top: 58px;
 	margin-bottom: 40px;
 	width: 200px;
@@ -127,7 +117,7 @@ footer a:link, footer a:visited {
 	}
 .sidebar .wrapper {
 	font: 10px verdana, sans-serif;
-	background: transparent url(paper-bg.jpg) top left repeat-y;
+	background: transparent url(images.jpg) top left repeat-y;
 	padding: 10px;
 	margin-top: 150px;
 	width: 130px;
@@ -153,7 +143,7 @@ footer a:link, footer a:visited {
 	overflow: hidden;
 	}
 .sidebar h3.resources {
-	background: transparent url(h6.gif) no-repeat top left;
+	background: transparent url(images.gif) no-repeat top left;
 	margin: 25px 0 5px 0;
 	width:63px;
 	height: 10px;
@@ -170,7 +160,7 @@ footer a:link, footer a:visited {
 	}
 .sidebar li {
 	line-height: 1.3em;
-	background: transparent url(cr1.gif) no-repeat top center;
+	background: transparent url(images.gif) no-repeat top center;
 	display: block;
 	padding-top: 5px;
 	margin-bottom: 5px;
@@ -185,7 +175,7 @@ footer a:link, footer a:visited {
 
 
 .extra1 {
-	background: transparent url(cr2.gif) top left no-repeat;
+	background: transparent url(images.gif) top left no-repeat;
 	position: absolute;
 	top: 40px;
 	right: 0;
