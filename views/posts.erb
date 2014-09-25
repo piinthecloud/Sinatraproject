@@ -1,4 +1,10 @@
-<h3> My Posts </h3>
 
-<p><a href= "/posts/pi-in-tech">Pi_intech</a></p>
-<p><a href= "/posts/pi-in-sinatra">Pi_insinatra</a></p>
+
+<div id="pagebody">
+
+<% @post.each do |post| %>
+  <li><a href="<%= post.url %>"><%= post.title %></a></li>
+<% end %>
+
+
+</div>

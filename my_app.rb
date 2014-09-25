@@ -23,6 +23,7 @@ class MyApp < Sinatra::Base
   end
 
   get "/posts" do
+    @post = Post.splitarray
     erb :posts
   end
 
