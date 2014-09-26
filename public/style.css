@@ -93,13 +93,16 @@ body {
 	color: black;
 	margin: 30px;
 	padding: 10;
+	text-align: center;
+
 }
 
 #pagebody li{
-  list-style-type: disc;
+  list-style-type: none;
 	font-family: rockwell;
 	font-size: 20px;
 	color: black;
+
 }
 #pagebody a {
 	color: black;

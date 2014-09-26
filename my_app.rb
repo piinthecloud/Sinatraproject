@@ -13,7 +13,6 @@ class MyApp < Sinatra::Base
 
 
   get "/" do
-    @post = Post.splitarray
 #    erb method looks for an html file and it reads it
     erb :index
   end
@@ -27,9 +26,10 @@ class MyApp < Sinatra::Base
     erb :posts
   end
 
-  get "/posts/:postname" do
+  get "/posts/:date/:postname" do
     erb "posts/#{params[:postname]}".to_sym
   end
+##{params[:date]}/
 
   post "/" do
     puts params.inspect
