@@ -116,6 +116,28 @@ body {
 
 }
 
+#postbody h1 {
+	font-family: futura;
+	color: #000;
+	font-size: 3.6em;
+	margin: 0;
+	margin-bottom: 7px;
+	padding: 4px;
+	font-style: bold;
+	text-align: center;
+
+}
+
+#postbody{
+	font-family: rockwell;
+	font-size: 1.5em;
+	color: black;
+	margin: 30px;
+	padding: 10;
+
+
+}
+
 
 /*footer{
     background-color: #DE0244;
