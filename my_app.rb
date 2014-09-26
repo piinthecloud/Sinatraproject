@@ -31,6 +31,11 @@ class MyApp < Sinatra::Base
     erb "posts/#{params[:postname]}".to_sym
   end
 
+  post "/" do
+    puts params.inspect
+    redirect to ("/")
+  end
+
 end
 
 # get "/users/:username" do

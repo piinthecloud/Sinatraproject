@@ -19,7 +19,6 @@ class Post
   def self.all
     #an each method would not return an array of arrays, while the collect method actually returns the array
     Dir.glob("views/posts/*")
-
   end
 
   def self.splitarray
@@ -28,6 +27,9 @@ class Post
       self.new(a)
     end
   end
+
+
+
 
 
 
