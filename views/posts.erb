@@ -7,12 +7,9 @@
 
 
 <% @post.each do |post| %>
-  <li><a href="<%= post.url %>"><%= post.title.upcase.gsub("-"," ").gsub("_"," ") %></a></li>
+  <li><a href="<%= post.url %>"> <%=post.title.upcase.gsub("-"," ").gsub("_"," ") %></a></li>
 
 <% end %>
 
 
 </div>
-
-
-<li><a href="<%= post.url %>"><%= post.title.upcase.gsub("-"," ").gsub("_"," ") %></a></li>
