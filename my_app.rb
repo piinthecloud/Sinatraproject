@@ -26,7 +26,7 @@ class MyApp < Sinatra::Base
     erb :posts
   end
 
-  get "/posts/:date/:postname" do
+  get "/posts/:postname" do
     erb "posts/#{params[:postname]}".to_sym
   end
 ##{params[:date]}/
