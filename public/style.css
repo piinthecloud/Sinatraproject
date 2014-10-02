@@ -63,6 +63,7 @@ body{
 	background-color: #FC354C;
 	position:fixed;
 	top: 0;
+	z-index: 999;
 	height: 20px;
 	width: 100%;
 	color: #FC354C;
@@ -194,9 +195,6 @@ body{
 	color: black;
 	margin: 60px;
 	padding: 50px;
-	-webkit-box-shadow: 2px 3px 27px 7px rgba(0,0,0,0.27);
-	-moz-box-shadow: 2px 3px 27px 7px rgba(0,0,0,0.27);
-	box-shadow: 2px 3px 27px 7px rgba(0,0,0,0.27);
 
 
 }
