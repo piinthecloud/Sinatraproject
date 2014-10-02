@@ -1,8 +1,11 @@
+/**{
+	border: 1px solid pink;
+}*/
 
 html{
 	margin: 0;
 	padding: 0;
-	}
+	}*
 
 body{
     font-family: arial, helvetica, sans-serif;
@@ -12,9 +15,10 @@ body{
     padding:0;
 		padding-bottom: 40px;
 		margin-bottom: 20px;
+		min-height: 900px;
 }
 
-#header {
+.header {
 		background-color: white;
 		font-family: futura;
 		font-size: 2.5em;
@@ -29,11 +33,11 @@ body{
 		border-bottom-color: #000;*/
 }
 
-#header a{
+.header a{
 	color: white;
 }
 
-#header img{
+.header img{
 	border-style: solid;
 	border-width: 10px;
 	border-color: #fff;
@@ -41,16 +45,21 @@ body{
 
 }
 
-#bottom {
+/*.edges {
+
+}*/
+
+.bottom {
 	background-color: #FC354C;
 	position:fixed;
 	bottom: 0;
+	z-index: 999;
 	height: 20px;
 	width: 100%;
 	color: #FC354C;
 }
 
-#top {
+.top {
 	background-color: #FC354C;
 	position:fixed;
 	top: 0;
@@ -59,7 +68,7 @@ body{
 	color: #FC354C;
 }
 
-#left {
+.left {
 	background-color: #FC354C;
 	position:fixed;
 	left: 0;
@@ -68,7 +77,7 @@ body{
 	color: #FC354C;
 }
 
-#right {
+.right {
 	background-color: #FC354C;
 	position:fixed;
 	right: 0;
@@ -81,7 +90,7 @@ body{
 	background-color: #000;
 }
 
-#header h1 {
+.header h1 {
 	font-family: futura;
 	color: #000;
 	font-size: 3.6em;
@@ -92,7 +101,7 @@ body{
 	text-align: center;
 }
 
-#pagebody {
+.pagebody {
 	font-family: rockwell;
 	font-size: 14px;
 	color: black;
@@ -102,17 +111,17 @@ body{
 
 }
 
-#pagebody li{
+.pagebody li{
   list-style-type: none;
 	font-family: rockwell;
 	font-size: 20px;
 	color: black;
 }
-#pagebody a {
+.pagebody a{
 	color: black;
  }
 
-#pagebody h1{
+.pagebody h1{
 	font-family: futura;
 	color: #000;
 	font-size: 3.6em;
@@ -124,6 +133,19 @@ body{
 
 }
 
+.media {
+	  position: absolute;
+    top:600px;
+		/*bottom:50px;*/
+		right:40px;
+    width:50px;
+}
+
+.media img{
+	height: 50px;
+
+
+}
 
 #about {
 	font-family: rockwell;
@@ -166,17 +188,20 @@ body{
 
 
 
-#postbody{
+.postbody{
 	font-family: rockwell;
 	font-size: 1.5em;
 	color: black;
 	margin: 60px;
-	padding: 50;
+	padding: 50px;
+	-webkit-box-shadow: 2px 3px 27px 7px rgba(0,0,0,0.27);
+	-moz-box-shadow: 2px 3px 27px 7px rgba(0,0,0,0.27);
+	box-shadow: 2px 3px 27px 7px rgba(0,0,0,0.27);
 
 
 }
 
-#postbody h3{
+.postbody h3{
 	font-family: futura;
 	color: #000;
 	font-size: 2em;
@@ -187,6 +212,7 @@ body{
 	text-align: center;
 
 }
+
 
 p {
     line-height: 21px;
