@@ -1,26 +1,27 @@
-<!-- <!DOCTYPE html>
-<html> -->
-<head>
-    <title>Pi Page</title>
-    <link rel = "stylesheet" href="/style.css" />
-    <script src="/app.js"></script>
-</head>
+<!DOCTYPE html>
+<html>
+  <head>
+      <title>Pi Page</title>
+      <link rel = "stylesheet" href="/style.css" />
 
-<div id=top></div>
-<div id=bottom></div>
-<div id=left></div>
-<div id=right></div>
+  </head>
+  <body>
+    <div id=top></div>
+    <div id=bottom></div>
+    <div id=left></div>
+    <div id=right></div>
 
-<div id="header">
-  <div style="text-align: center;"><img src = "/chonga.jpg" height = "410"  style="margin-top:20px"></div>
-  <p></p>
-  <div id="links">
-    <a href= "/">Home</a> /
-    <a href= "/about-me">About</a> /
-    <a href= "/posts">Posts</a>
-  </div>
-</div>
-
-
-
-<%= yield %>
+    <div id="header">
+      <div style="text-align: center;"><img src = "/chonga.jpg" height = "410"  style="margin-top:20px"></div>
+      <p></p>
+      <div id="links">
+        <a href= "/">Home</a> /
+        <a href= "/about-me">About</a> /
+        <a href= "/posts">Posts</a>
+      </div>
+    </div>
+    <%= yield %>
+    <script src="javascripts/jquery-2.1.1.min.js"></script>
+    <script src="/javascripts/app.js"></script>
+  </body>
+</html>

@@ -1,16 +1,16 @@
 
-html {
+html{
 	margin: 0;
 	padding: 0;
 	}
 
-body {
+body{
     font-family: arial, helvetica, sans-serif;
     font-size: 14px;
     color: black;
     margin: 0px;
     padding:0;
-		padding-bottom: 30px;
+		padding-bottom: 40px;
 		margin-bottom: 20px;
 }
 
@@ -37,39 +37,44 @@ body {
 	border-style: solid;
 	border-width: 10px;
 	border-color: #fff;
+	border-radius: 30px;
+
 }
 
 #bottom {
-	background-color: #DE0244;
+	background-color: #FC354C;
 	position:fixed;
 	bottom: 0;
-	height: 15px;
+	height: 20px;
 	width: 100%;
-	color: #DE0244;
+	color: #FC354C;
 }
+
 #top {
-	background-color: #DE0244;
+	background-color: #FC354C;
 	position:fixed;
 	top: 0;
-	height: 15px;
+	height: 20px;
 	width: 100%;
-	color: #DE0244;
+	color: #FC354C;
 }
+
 #left {
-	background-color: #DE0244;
+	background-color: #FC354C;
 	position:fixed;
 	left: 0;
 	height: 100%;
-	width: 15px;
-	color: #DE0244;
+	width: 20px;
+	color: #FC354C;
 }
+
 #right {
-	background-color: #DE0244;
+	background-color: #FC354C;
 	position:fixed;
 	right: 0;
 	height: 100%;
-	width: 15px;
-	color: #DE0244;
+	width: 20px;
+	color: #FC354C;
 }
 
 #links {
@@ -124,8 +129,8 @@ body {
 	font-family: rockwell;
 	font-size: 14px;
 	color: black;
-	margin: 20px;
-	padding: 10;
+	margin: 40px;
+	padding: 20;
 	text-align: center;
 }
 
@@ -142,12 +147,12 @@ body {
 }
 /*
 #about footer {
-	background-color: #DE0244;
+	background-color: #FC354C;
 	position:fixed;
 	bottom: 0;
 	height: 15px;
 	width: 100%;
-	color: #DE0244;
+	color: #FC354C;
 
 }*/
 
@@ -171,7 +176,7 @@ body {
 
 }
 
-#postbody h3 {
+#postbody h3{
 	font-family: futura;
 	color: #000;
 	font-size: 2em;
