@@ -85,9 +85,54 @@ body{
 	color: #FC354C;
 }
 
-#links {
+.links {
 	height:50px;
 	background-color: #000;
+}
+
+.nav {
+	margin: 0;
+}
+
+.nav li{
+	display: inline-block;
+	text-align: center;
+	margin-left: 0px;
+	margin-right: 10px;
+
+}
+
+.nav li:hover .dropdown{
+	display: inline-block;
+}
+
+ul.dropdown {
+  display: none;
+  width: 150px;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  background-color: black;
+	text-align: left;
+	opacity: .80;
+	/*z-index: -10;*/
+}
+
+ul.dropdown li{
+	text-align: center;
+
+}
+
+ul.dropdown li:hover {
+  /*display: inline-block;*/
+	background-color: #FC354C;
+	width: 150px;
+
+}
+
+ul.dropdown li{
+	display: block;
+
 }
 
 .header h1 {
