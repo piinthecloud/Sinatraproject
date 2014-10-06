@@ -40,7 +40,19 @@ body{
 .header img{
 	border-radius: 30px;
 	margin-top: 50px;
+	width: 88%;
 
+}
+
+.header h1{
+	font-family: futura;
+	color: #000;
+	font-size: 3.6em;
+	margin: 0;
+	margin-bottom: 7px;
+	padding: 4px;
+	font-style: bold;
+	text-align: center;
 }
 
 /*.edges {
@@ -137,16 +149,7 @@ ul.dropdown li{
 
 }
 
-.header h1 {
-	font-family: futura;
-	color: #000;
-	font-size: 3.6em;
-	margin: 0;
-	margin-bottom: 7px;
-	padding: 4px;
-	font-style: bold;
-	text-align: center;
-}
+
 
 .pagebody {
 	font-family: rockwell;
@@ -225,6 +228,7 @@ ul.dropdown li{
 		border-radius: 100px;
 		border-color: #ccc;
 		float: left;
+		width:20%;
 		/*position: fixed;*/
 }
 
