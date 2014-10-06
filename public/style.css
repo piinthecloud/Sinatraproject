@@ -128,7 +128,7 @@ ul.dropdown {
 	text-align: left;
 	/*opacity: .80;*/
 	left: 44%;
-	top: 545px;
+	/*top: 545px;*/
 	/*z-index: -10;*/
 }
 
@@ -181,12 +181,13 @@ ul.dropdown li{
 	font-style: bold;
 	text-align: center;
 
+
 }
 
 .media {
 	  position: absolute;
 		float:left;
-    top:600px;
+    top:700px;
 		/*bottom:50px;*/
 		right:40px;
     width:50px;
