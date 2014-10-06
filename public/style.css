@@ -20,17 +20,7 @@ body{
 
 .header {
 		background-color: white;
-		font-family: futura;
-		font-size: 2.5em;
-		color: white;
-		margin: 0;
-		padding: 0px;
-		font-weight: bolder;
-		text-align: center;
-		letter-spacing: 0em;
-		/*border-bottom-style: solid;
-		border-bottom-width: 5em;
-		border-bottom-color: #000;*/
+
 }
 
 .header a{
@@ -40,6 +30,7 @@ body{
 .header img{
 	border-radius: 30px;
 	margin-top: 50px;
+	margin-bottom: 19px;
 	width: 88%;
 
 }
@@ -104,6 +95,13 @@ body{
 
 .nav {
 	margin: 0;
+	font-family: futura;
+	font-size: 2.1em;
+	color: white;
+	padding: 5px;
+	font-weight: bolder;
+	text-align: center;
+	letter-spacing: 0em;
 }
 
 .nav li{
@@ -127,7 +125,7 @@ ul.dropdown {
   background-color: black;
 	text-align: left;
 	/*opacity: .80;*/
-	left: 44%;
+	left: 40%;
 	/*top: 545px;*/
 	/*z-index: -10;*/
 }

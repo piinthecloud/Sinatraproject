@@ -33,6 +33,10 @@ class MyApp < Sinatra::Base
   get "/contact" do
     erb :contact
   end
+
+  get "/instagram" do
+    erb :instagram
+  end
   #
   # post "/" do
   #   puts params.inspect
